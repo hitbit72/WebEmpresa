@@ -1,0 +1,7 @@
+db.sqlite3
+.web
+*.zip
+*.db
+*.py[cod]
+__pycache__/
+migrations/
