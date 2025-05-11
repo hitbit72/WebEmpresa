@@ -3,5 +3,6 @@ db.sqlite3
 *.zip
 *.db
 *.py[cod]
+local_settings.py
 __pycache__/
 migrations/
