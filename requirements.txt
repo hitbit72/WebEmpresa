@@ -1,6 +1,6 @@
+pillow==11.2.1
 django>=5.0
 django-ckeditor==6.7.2
-pillow==11.2.1
 django-cors-headers==3.13.0
 pylint==3.3.6
 pylint-django==2.6.1
