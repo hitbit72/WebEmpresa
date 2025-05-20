@@ -42,3 +42,9 @@ urlpatterns = [
 if  settings.DEBUG:
     from django.conf.urls.static import static
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)  # Manejo de archivos media en modo de desarrollo
+
+
+# Titulos customizados para Administrador
+admin.site.site_header = "La Caffetiera"
+admin.site.index_title = "Panal de administrador"
+admin.site.site_title = "La Caffetiera"
